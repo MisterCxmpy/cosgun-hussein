@@ -1,0 +1,58 @@
+:root {
+    --main-color: #79a617; 
+    --background: #191a1b;
+    --selBackground: #731010;
+    --sub-color: #48494b;
+    --text-color: #e7eae0;
+    --command: #a61717;
+
+    color: var(--main-color);
+    background: var(--background);
+}
+
+body {
+    background: var(--background);
+}
+
+::selection {
+    background-color: var(--selBackground);
+}
+
+::-moz-selection {
+    background-color: var(--selBackground);
+}
+
+.cursor {
+    color: var(--command);
+    background-color: var(--command);
+}
+
+#command {
+    color: var(--command);
+}
+
+#liner::before {
+    color: var(--main-color);
+}
+
+.color2 {
+    color: var(--sub-color);
+}
+
+.command {
+    color: var(--command);
+    text-shadow: 0 0 5px var(--command); 
+}
+
+.error {
+    color: var(--sub-color);
+}
+
+.inherit,
+a {
+    color: var(--text-color);
+}
+
+a:hover {
+background: var(--command);
+}

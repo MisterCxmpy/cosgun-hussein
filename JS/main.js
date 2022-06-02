@@ -161,7 +161,7 @@ function loopLines(name, style, time) {
 }
 
 function changeStyle(sheet) {
-    document.getElementById("currentTheme").setAttribute("href", "/mistercxmpy.github.io/themes/" + sheet + ".css");  
+    document.getElementById("currentTheme").setAttribute("href", "Themes/" + sheet + ".css");  
     textarea.focus();
 
     if (typeof(Storage) !== "undefined") {

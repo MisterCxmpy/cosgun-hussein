@@ -17,7 +17,9 @@ setTimeout(function() {
 
 window.addEventListener("keyup", enterKey);
 
-document.getElementById("currentTheme").setAttribute("href", theme);
+if (theme != null){
+  document.getElementById("currentTheme").setAttribute("href", theme);
+};
 
 //init
 textarea.value = "";

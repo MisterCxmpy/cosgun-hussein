@@ -6,8 +6,6 @@ var terminal = document.getElementById("terminal");
 var theme = localStorage.getItem("themes");
 
 var git = 0;
-var pw = false;
-let pwd = false;
 var commands = [];
 
 setTimeout(function() {
@@ -29,50 +27,28 @@ function enterKey(e) {
   if (e.keyCode == 181) {
     document.location.reload(true);
   }
-  if (pw) {
-    let et = "*";
-    let w = textarea.value.length;
-    command.innerHTML = et.repeat(w);
-    if (textarea.value === password) {
-      pwd = true;
-    }
-    if (pwd && e.keyCode == 13) {
-      loopLines(secret, "color2 margin", 120);
-      command.innerHTML = "";
+  
+  if (e.keyCode == 13) {
+    commands.push(command.innerHTML);
+    git = commands.length;
+    addLine("guest@mistercxmpy.github.io:~$ " + command.innerHTML, "no-animation", 0);
+    commander(command.innerHTML.toLowerCase());
+    command.innerHTML = "";
+    textarea.value = "";
+  }
+  if (e.keyCode == 38 && git != 0) {
+    git -= 1;
+    textarea.value = commands[git];
+    command.innerHTML = textarea.value;
+  }
+  if (e.keyCode == 40 && git != commands.length) {
+    git += 1;
+    if (commands[git] === undefined) {
       textarea.value = "";
-      pwd = false;
-      pw = false;
-      liner.classList.remove("password");
-    } else if (e.keyCode == 13) {
-      addLine("Wrong password", "error", 0);
-      command.innerHTML = "";
-      textarea.value = "";
-      pw = false;
-      liner.classList.remove("password");
-    }
-  } else {
-    if (e.keyCode == 13) {
-      commands.push(command.innerHTML);
-      git = commands.length;
-      addLine("guest@mistercxmpy.github.io:~$ " + command.innerHTML, "no-animation", 0);
-      commander(command.innerHTML.toLowerCase());
-      command.innerHTML = "";
-      textarea.value = "";
-    }
-    if (e.keyCode == 38 && git != 0) {
-      git -= 1;
+    } else {
       textarea.value = commands[git];
-      command.innerHTML = textarea.value;
     }
-    if (e.keyCode == 40 && git != commands.length) {
-      git += 1;
-      if (commands[git] === undefined) {
-        textarea.value = "";
-      } else {
-        textarea.value = commands[git];
-      }
-      command.innerHTML = textarea.value;
-    }
+    command.innerHTML = textarea.value;
   }
 }
 

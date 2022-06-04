@@ -18,9 +18,7 @@ function typeIt(from, e) {
   e = e || window.event;
   var w = $("typer");
   var tw = from.value;
-  if (!pw){
-    w.innerHTML = nl2br(tw);
-  }
+  w.innerHTML = nl2br(tw);
 }
 
 function moveIt(count, e) {

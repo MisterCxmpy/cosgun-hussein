@@ -57,9 +57,7 @@ button {
   #liner::before {
     content: "guest@mistercxmpy.github.io:~$";
   }
-  #liner.password::before {
-    content: "Password:";
-  }
+
   @keyframes show {
     from {
       opacity: 0;

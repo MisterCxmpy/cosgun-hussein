@@ -26,6 +26,8 @@ projects = [
   "Type the name of the language to views its projects:",
   "<br>",
   "Python",
+  "<br>",
+  "RoR",
   "<br>"
 ];
 
@@ -78,5 +80,11 @@ python = [
   '<a href="https://github.com/MisterCxmpy/Python-Snipping-Tool" target="_blank">python snipping tool' + "</a>",
   '<a href="https://github.com/MisterCxmpy/Python-Drawing-Tool" target="_blank">python drawing tool' + "</a>",
   '<a href="https://github.com/MisterCxmpy/Python-YouTube-MP3-Downloader" target="_blank">python youtube to mp3' + "</a>",
+  '<br>',
+]
+
+ror = [
+  '<br>',
+  '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' + "</a>",
   '<br>',
 ]

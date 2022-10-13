@@ -77,6 +77,7 @@ cv = [
 python = [
   '<br>',
   'Python projects<br>',
+  '<br>',
   '<a href="https://github.com/MisterCxmpy/Python-Snipping-Tool" target="_blank">python snipping tool' + "</a>",
   '<a href="https://github.com/MisterCxmpy/Python-Drawing-Tool" target="_blank">python drawing tool' + "</a>",
   '<a href="https://github.com/MisterCxmpy/Python-YouTube-MP3-Downloader" target="_blank">python youtube to mp3' + "</a>",
@@ -85,7 +86,8 @@ python = [
 
 ror = [
   '<br>',
-  'Rails projects<br>',
+  'Rails projects',
+  '<br>',
   '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' + "</a>",
   '<br>',
 ]

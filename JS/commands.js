@@ -25,9 +25,8 @@ projects = [
   "<br>",
   "Type the name of the language to views its projects:",
   "<br>",
-  "Python",
-  "<br>",
-  "RoR",
+  '<span class="command">Python</span>',
+  '<span class="command">RoR</span>',
   "<br>"
 ];
 

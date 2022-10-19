@@ -26,7 +26,7 @@ projects = [
   "Type the name of the language to views its projects:",
   "<br>",
   '<span class="command">Python</span>',
-  '<span class="command">RoR</span> (Ruby on Rails)',
+  '<span class="command">RoR</span>',
   "<br>"
 ];
 
@@ -69,8 +69,8 @@ themes = [
 
 cv = [
   '<br>',
-  'pdf          <a href="Data/cosgun hussein - cv.pdf" download>download cv</a>',
-  'docx         <a href="Data/cosgun hussein - cv.docx" download>download cv</a>',
+  'pdf          <a href="data/cosgun hussein - cv.pdf" download>download cv</a>',
+  'docx         <a href="data/cosgun hussein - cv.docx" download>download cv</a>',
   '<br>',
 ]
 

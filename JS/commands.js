@@ -26,7 +26,7 @@ projects = [
   "Type the name of the language to views its projects:",
   "<br>",
   '<span class="command">Python</span>',
-  '<span class="command">RoR (Ruby on Rails)</span>',
+  '<span class="command">RoR</span> (Ruby on Rails)',
   "<br>"
 ];
 

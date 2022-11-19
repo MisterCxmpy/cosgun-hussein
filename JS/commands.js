@@ -22,6 +22,7 @@ social = [
 projects = [
   "<br>",
   "⚠ PROJECT SECTION IS CURRENTLY UNDER DEVELOPMENT ⚠",
+  "All projects are visable on my <a href='https://github.com/mistercxmpy/' target='_blank'>GitHub",
   "<br>",
   "Type the name of the language to views its projects:",
   "<br>",
@@ -69,8 +70,8 @@ themes = [
 
 cv = [
   '<br>',
-  'pdf          <a href="data/cosgun hussein - cv.pdf" download>download cv</a>',
-  'docx         <a href="data/cosgun hussein - cv.docx" download>download cv</a>',
+  'pdf          <a href="Data/Cosgun Hussein - CV.pdf" download>download cv</a>',
+  'docx         <a href="Data/Cosgun Hussein - CV.docx" download>download cv</a>',
   '<br>',
 ]
 
@@ -89,5 +90,7 @@ ror = [
   'Rails projects',
   '<br>',
   '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' + "</a>",
+  '<a href="https://github.com/MisterCxmpy/rails-message-board" target="_blank">rails messaging board' + "</a>",
+  '<a href="https://github.com/MisterCxmpy/rails-finance-tracker" target="_blank">rails finance tracker' + "</a>",
   '<br>',
 ]

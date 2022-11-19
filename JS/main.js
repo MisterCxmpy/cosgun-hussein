@@ -86,10 +86,13 @@ function commander(cmd) {
       break;
     case "themes":
       loopLines(themes, "color2 margin", 80);
-    break;
+      break;
+    case "themes 2":
+      loopLines(themes_2, "color2 margin", 80);
+      break;
     case "cv":
       loopLines(cv, "color2 margin", 80);
-    break;
+      break;
     // socials
     case "github":
       addLine("Opening GitHub...", "color2", 0);

@@ -60,15 +60,34 @@ banner = [
 themes = [
     '<br>',
     `<a href="#" onclick=changeStyle("default");>default</a>`,
-    `<a href="#" onclick=changeStyle("dark");>dark</a>`,
-    `<a href="#" onclick=changeStyle("watermelon");>watermelon</a>`,
-    `<a href="#" onclick=changeStyle("cyberspace");>cyberspace</a>`,
-    `<a href="#" onclick=changeStyle("terminal");>terminal</a>`,
-    `<a href="#" onclick=changeStyle("carbon");>carbon</a>`,
-    `<a href="#" onclick=changeStyle("laser");>laser</a>`,
-    `<a href="#" onclick=changeStyle("deku");>deku</a>`,
+    `<a href="#" onclick=changeStyle("80s_after_dark");>80s after dark</a>`,
+    `<a href="#" onclick=changeStyle("8008");>8008</a>`,
+    `<a href="#" onclick=changeStyle("9009");>9009</a>`,
+    `<a href="#" onclick=changeStyle("aether");>aether</a>`,
+    `<a href="#" onclick=changeStyle("alduin");>alduin</a>`,
+    `<a href="#" onclick=changeStyle("arch");>arch</a>`,
+    `<a href="#" onclick=changeStyle("aurora");>aurora</a>`,
+    `<a href="#" onclick=changeStyle("beach");>beach</a>`,
+    `<a href="#" onclick=changeStyle("bento");>bento</a>`,
+    '<br>',
+    `---- type "themes 2" for more themes ---- `,
     '</div>',
     '<br>',
+]
+
+themes_2 = [
+  '<br>',
+  `<a href="#" onclick=changeStyle("carbon");>carbon</a>`,
+  `<a href="#" onclick=changeStyle("cyberspace");>cyberspace</a>`,
+  `<a href="#" onclick=changeStyle("dark");>dark</a>`,
+  `<a href="#" onclick=changeStyle("deku");>deku</a>`,
+  `<a href="#" onclick=changeStyle("laser");>laser</a>`,
+  `<a href="#" onclick=changeStyle("terminal");>terminal</a>`,
+  `<a href="#" onclick=changeStyle("watermelon");>watermelon</a>`,
+  '<br>',
+  `---- type "themes 2" to go to the second page ---- `,
+  '</div>',
+  '<br>',
 ]
 
 cv = [

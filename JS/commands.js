@@ -64,6 +64,9 @@ themes = [
     `<a href="#" onclick=changeStyle("watermelon");>watermelon</a>`,
     `<a href="#" onclick=changeStyle("cyberspace");>cyberspace</a>`,
     `<a href="#" onclick=changeStyle("terminal");>terminal</a>`,
+    `<a href="#" onclick=changeStyle("carbon");>carbon</a>`,
+    `<a href="#" onclick=changeStyle("laser");>laser</a>`,
+    `<a href="#" onclick=changeStyle("deku");>deku</a>`,
     '</div>',
     '<br>',
 ]

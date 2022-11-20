@@ -1,17 +1,17 @@
 :root {
     --main-color: #f44c7f; 
-    --background: #333a45;
+    --bg-color: #333a45;
     --error-extra-color: #791717;
     --sub-color: #939eae;
     --text-color: #e9ecf0;
     --error-color: #da3333;
 
     color: var(--main-color);
-    background: var(--background);
+    background: var(--bg-color);
 }
 
 body {
-    background: var(--background);
+    background: var(--bg-color);
 }
 
 ::selection {

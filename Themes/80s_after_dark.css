@@ -1,5 +1,5 @@
 :root {
-    --background: #1b1d36;
+    --bg-color: #1b1d36;
     --main-color: #fca6d1;
     --sub-color: #99d6ea;
     --text-color: #e1e7ec;
@@ -7,11 +7,11 @@
     --error-extra-color: #fffb85;
 
     color: var(--main-color);
-    background: var(--background);
+    background: var(--bg-color);
 }
 
 body {
-    background: var(--background);
+    background: var(--bg-color);
 }
 
 ::selection {

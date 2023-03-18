@@ -79,6 +79,7 @@ function commander(cmd) {
       }, 1);
       break;
     case "themes":
+    case "themes 1":
       loopLines(themes, "color2 margin", 80);
       break;
     case "themes 2":

@@ -72,7 +72,7 @@ const generateSessionID = () => {
 
 banner = [
     '<span class="color2">Welcome to CosShell v2002.09.</span>',
-    `<span class="color2">Session ID: ${generateSessionID()}</span>`,
+    `<span class="color2">Session ID: <span class="command">${generateSessionID()}</span></span>`,
     `<span class="color2">Type</span> <span class="command">'help'</span><span class="color2"> to see list of available commands.</span>`,
     `<span class="color2">All Commands are case insensitive.</span>`,
 ];

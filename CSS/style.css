@@ -28,7 +28,7 @@ body {
 }
 
 .container p {
- flex: 1;
+  flex: 1;
 }
 
 button {
@@ -100,8 +100,8 @@ p {
   line-height: 1.3em;
   margin: 0;
   overflow: hidden;
-  white-space: nowrap;
   margin: 0;
+  white-space: nowrap;
   letter-spacing: 0.05em;
   animation: typing 0.5s steps(30, end);
 }
@@ -124,7 +124,7 @@ p {
 }
 
 .command {
-  text-shadow: 0 0 5px #73ABAD; 
+  text-shadow: 0 0 5px #73abad;
 }
 
 .white {
@@ -144,18 +144,28 @@ a {
 a:focus {
   outline: 0;
 }
-  
+
 @media only screen and (max-width: 600px) {
+  *:not(#liner) {
+    animation: none !important;
+  }
+
   body {
     min-width: 0;
     width: 100%;
+    padding: 15px 10px;
+  }
+
+  p {
+    white-space: normal;
   }
 
   .container {
-    height: 600px;
+    height: 700px;
   }
 
   .banner {
-    font-size: 8px;
+    text-align: center;
+    font-size: 6px;
   }
 }

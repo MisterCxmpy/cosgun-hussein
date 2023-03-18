@@ -1,9 +1,7 @@
 body {
   margin: 0;
-  padding: 15px 20px;
+  padding: 15px 25px;
   min-height: 99%;
-  width: 100%;
-  min-width: 550px;
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
@@ -19,14 +17,14 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px;
-  height: 600px;
+  max-width: 1000px;
+  height: 500px;
   border-radius: 10px;
   box-shadow: 0 0 10px 7px rgb(255 255 255 / 10%);
   margin: 20px;
   cursor: text;
-  overflow-y: auto;
   padding: 16px;
+  overflow-y: auto;
 }
 
 .container p {
@@ -136,7 +134,7 @@ p {
 .banner {
   font-family: monospace;
   white-space: pre;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 a {
@@ -148,7 +146,16 @@ a:focus {
 }
   
 @media only screen and (max-width: 600px) {
+  body {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .container {
+    height: 600px;
+  }
+
   .banner {
-    display: none;
+    font-size: 8px;
   }
 }

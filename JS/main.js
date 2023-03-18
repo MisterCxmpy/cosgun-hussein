@@ -1,4 +1,5 @@
 const title = document.querySelector("#title");
+const container = document.querySelector(".container");
 let before = document.querySelector("#before");
 const liner = document.querySelector("#liner");
 const command = document.querySelector("#typer"); 
@@ -166,7 +167,7 @@ function addLine(text, style, time) {
 
     before.parentNode.insertBefore(next, before);
 
-    window.scrollTo(0, document.body.offsetHeight);
+    container.scrollTo(0, terminal.offsetHeight);
   }, time);
 }
 

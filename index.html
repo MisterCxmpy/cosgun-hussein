@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="4jRVpJfBdyDXdLkoRorAcpXjOJpDbYJ22Gymfxb__k8" />
-    <title>Cosgun Hussein | Portfolio Terminal</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link type="text/css" rel="stylesheet" id="currentTheme" href="Themes/default.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="JS/commands.js"></script>
+  <script defer src="JS/main.js"></script>
+  <script defer src="JS/caret.js"></script>
+  <title>Cosgun Hussein | Portfolio Terminal</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link type="text/css" rel="stylesheet" id="currentTheme" href="Themes/default.css">
 </head>
 <body>
+  <div class="container"> 
     <div id="terminal">
-        <a id="before"></a>
-      </div>
+      <div id="title"></div>
+      <a id="before"></a>
+    </div>
     <div id="command" onclick="$('texter').focus();">
-        <textarea type="text" id="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
-                     moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" autofocus=""></textarea>
-        <div id="liner">
-          <span id="typer"></span><b class="cursor" id="cursor" style="left: 0px;">█</b>
-        </div>
+      <textarea type="text" id="texter" onkeyup="typeIt(this, event)" onkeydown="typeIt(this, event); 
+                    moveIt(this.value.length, event)" onkeypress="typeIt(this, event);" autofocus=""></textarea>
+      <div id="liner">
+        <span id="typer"></span><b class="cursor" id="cursor" style="left: 0px;">█</b>
       </div>
+    </div>
       
     <div command=""></div>
-
-    <script src="JS/commands.js"></script>
-    <script src="JS/main.js"></script>
-    <script src="JS/caret.js"></script>
+  </div>
 </body>
 </html>

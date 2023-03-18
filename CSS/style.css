@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 button {
   padding: 0;
   border: none;
@@ -25,7 +32,6 @@ b {
   text-decoration: underline;
 }
 
-/* Cursor Start */
 .cursor {
   font-size: 12px;
   position: relative;
@@ -73,7 +79,6 @@ b {
   }
 }
 
-/* Cursor End */
 p {
   display: block;
   line-height: 1.3em;
@@ -118,3 +123,8 @@ a:focus {
   outline: 0;
 }
   
+@media only screen and (max-width: 600px) {
+  .banner {
+    display: none;
+  }
+}

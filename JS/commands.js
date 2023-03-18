@@ -1,5 +1,4 @@
 var github = "https://github.com/mistercxmpy/";
-var email = 'mailto:cosgunhussein@gmail.com';
 
 about = [
   "<br>",
@@ -38,21 +37,18 @@ help = [
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Display list of commands',
-  '<span class="command">email</span>          Contact me',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">banner</span>         Display the header',
   '<span class="command">themes</span>         Change the theme',
-  '<span class="command">cv</span>             Download my CV',
   "<br>",
 ];
 
 banner = [
-    '&nbsp;██████╗ ██████╗ ███████╗ ██████╗ ██╗   ██╗███╗   ██╗    ██╗  ██╗██╗   ██╗███████╗███████╗███████╗██╗███╗   ██╗',
-    '██╔════╝██╔═══██╗██╔════╝██╔════╝ ██║   ██║████╗  ██║    ██║  ██║██║   ██║██╔════╝██╔════╝██╔════╝██║████╗  ██║',
-    '██║     ██║   ██║███████╗██║  ███╗██║   ██║██╔██╗ ██║    ███████║██║   ██║███████╗███████╗█████╗  ██║██╔██╗ ██║',
-    '██║     ██║   ██║╚════██║██║   ██║██║   ██║██║╚██╗██║    ██╔══██║██║   ██║╚════██║╚════██║██╔══╝  ██║██║╚██╗██║',
-    '╚██████╗╚██████╔╝███████║╚██████╔╝╚██████╔╝██║ ╚████║    ██║  ██║╚██████╔╝███████║███████║███████╗██║██║ ╚████║',
-    '&nbsp;╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝',
+    '<p class="banner">&nbsp;██████╗ ██████╗ ███████╗ ██████╗ ██╗   ██╗███╗   ██╗    ██╗  ██╗██╗   ██╗███████╗███████╗███████╗██╗███╗   ██╗</p>',
+    '<p class="banner">██╔════╝██╔═══██╗██╔════╝██╔════╝ ██║   ██║████╗  ██║    ██║  ██║██║   ██║██╔════╝██╔════╝██╔════╝██║████╗  ██║</p>',
+    '<p class="banner">██║     ██║   ██║███████╗██║  ███╗██║   ██║██╔██╗ ██║    ███████║██║   ██║███████╗███████╗█████╗  ██║██╔██╗ ██║</p>',
+    '<p class="banner">██║     ██║   ██║╚════██║██║   ██║██║   ██║██║╚██╗██║    ██╔══██║██║   ██║╚════██║╚════██║██╔══╝  ██║██║╚██╗██║</p>',
+    '<p class="banner">╚██████╗╚██████╔╝███████║╚██████╔╝╚██████╔╝██║ ╚████║    ██║  ██║╚██████╔╝███████║███████║███████╗██║██║ ╚████║</p>',
+    '<p class="banner">&nbsp;╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝</p>',
     '<span class="color2">Welcome to my portfolio.</span>',
     "<span class=\"color2\">Type</span> <span class=\"command\">'help'</span><span class=\"color2\"> to see list of available commands.</span>",
 ];
@@ -305,13 +301,6 @@ themes_15 = [
   `<a href="#!" onclick=changeStyle("watermelon");>watermelon</a>`,
   `<a href="#!" onclick=changeStyle("wavez");>wavez</a>`,
   `<a href="#!" onclick=changeStyle("witch_girl");>witch girl</a>`,
-  '<br>',
-]
-
-cv = [
-  '<br>',
-  'pdf          <a href="Data/Cosgun Hussein - CV.pdf" download>download cv</a>',
-  'docx         <a href="Data/Cosgun Hussein - CV.docx" download>download cv</a>',
   '<br>',
 ]
 

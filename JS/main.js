@@ -1,9 +1,9 @@
-var before = document.getElementById("before");
-var liner = document.getElementById("liner");
-var command = document.getElementById("typer"); 
-var textarea = document.getElementById("texter"); 
-var terminal = document.getElementById("terminal");
-var theme = localStorage.getItem("themes");
+const before = document.querySelector("#before");
+const liner = document.querySelector("#liner");
+const command = document.querySelector("#typer"); 
+const textarea = document.querySelector("#texter"); 
+const terminal = document.querySelector("#terminal");
+const theme = localStorage.getItem("themes");
 
 var git = 0;
 var commands = [];
@@ -19,7 +19,6 @@ if (theme != null){
   document.getElementById("currentTheme").setAttribute("href", theme);
 };
 
-//init
 textarea.value = "";
 command.innerHTML = textarea.value;
 
@@ -71,18 +70,11 @@ function commander(cmd) {
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
-    case "email":
-      addLine('Opening mailto:<a href="mailto:cosgunhussein@gmail.com">cosgunhussein@gmail.com</a>...', "color2", 80);
-      newTab(email);
-      break;
     case "clear":
       setTimeout(function() {
         terminal.innerHTML = '<a id="before"></a>';
         before = document.getElementById("before");
       }, 1);
-      break;
-    case "banner":
-      loopLines(banner, "", 80);
       break;
     case "themes":
       loopLines(themes, "color2 margin", 80);

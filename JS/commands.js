@@ -1,17 +1,21 @@
-var github = "https://github.com/mistercxmpy/";
+let github = "https://github.com/mistercxmpy/";
+let linkedIn = "https://www.linkedin.com/in/cosgun-hussein-618b71244/"
 
 about = [
   "<br>",
-  "Hi, I'm Cosgun Hussein, an aspiring software engineer with a passion for front-end",
-  "development. I have experience working with Python and JavaScript, and have used Ruby on",
-  "Rails for some projects. I enjoy creating visually appealing and user-friendly interfaces and",
-  "am always learning new technologies to improve my skills.",
+  "Hi, I'm Cosgun Hussein (can be pronouced as Josh), an aspiring software engineer with a passion for",
+  "front-end development. I have experience working with Python and JavaScript, and have used many",
+  "different languges to a basic level. I enjoy creating visually appealing and user-friendly interfaces",
+  "and am always learning new technologies to improve my skills.",
   "<br>"
 ];
 
 social = [
   "<br>",
   'github         <a href="' + github + '" target="_blank">github/mistercxmpy' + "</a>",
+  'linkedin       <a href="' + linkedIn + '" target="_blank">linkedIn.com/cosgun-hussein' + "</a>",
+  'email          <a href="mailto:cosgunhussein@gmail.com" target="_blank">email/cosgun-hussein' + "</a>",
+  'discord        <a href="https://discordapp.com/users/242001354468491274" target="_blank">discord/cosgun-hussein' + "</a>",
   "<br>"
 ];
 

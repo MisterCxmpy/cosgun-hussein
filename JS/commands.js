@@ -2,13 +2,10 @@ var github = "https://github.com/mistercxmpy/";
 
 about = [
   "<br>",
-  "Hello, I am Cosgun Hussein!",
-  "I'm a aspiring software engineer that has been coding for 5+ years.",
-  "My primary language of choice is Python as I find it the most enjoyable language due to its simple syntax.",
-  "Over the years I have tried to pick up a few different languages such as C#!, Java and JavaScript,",
-  "although my understanding of these languages is very basic.",
-  "I enjoy making random and useless programs for fun, while also making some more serious ones too.",
-  "Hope you enjoy browsing the site!",
+  "Hi, I'm Cosgun Hussein, an aspiring software engineer with a passion for front-end",
+  "development. I have experience working with Python and JavaScript, and have used Ruby on",
+  "Rails for some projects. I enjoy creating visually appealing and user-friendly interfaces and",
+  "am always learning new technologies to improve my skills.",
   "<br>"
 ];
 

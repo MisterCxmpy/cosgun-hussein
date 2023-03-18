@@ -8,11 +8,29 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+.container-prop {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 7px rgb(255 255 255 / 10%);
+  margin: 20px;
+  cursor: text;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.container p {
+ flex: 1;
 }
 
 button {
@@ -113,6 +131,12 @@ p {
 
 .white {
   color: #fff;
+}
+
+.banner {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 18px;
 }
 
 a {

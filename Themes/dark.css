@@ -56,3 +56,22 @@ a {
 a:hover {
 background: var(--command);
 }
+
+
+.container {
+  box-shadow: 0 0 10px 7px var(--main-color);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sub-color);
+  border-radius: 10px;
+}

@@ -1,59 +1,77 @@
 :root {
-    --main-color: #76689a; 
-    --bg-color: #2b2b2c;
-    --selBackground: #8f2f19;
-    --sub-color: #d8a0a6;
-    --text-color: #f1e2e4;
-    --command: #d44729;
+  --main-color: #76689a;
+  --bg-color: #2b2b2c;
+  --selBackground: #8f2f19;
+  --sub-color: #d8a0a6;
+  --text-color: #f1e2e4;
+  --command: #d44729;
 
-    color: var(--main-color);
-    background: var(--bg-color);
+  color: var(--main-color);
+  background: var(--bg-color);
 }
 
 body {
-    background: var(--bg-color);
+  background: var(--bg-color);
 }
 
 ::selection {
-    color: #211830;
-    background-color: var(--selBackground);
+  color: #211830;
+  background-color: var(--selBackground);
 }
 
 ::-moz-selection {
-    background-color: var(--selBackground);
+  background-color: var(--selBackground);
 }
 
 .cursor {
-    color: var(--command);
-    background-color: var(--command);
+  color: var(--command);
+  background-color: var(--command);
 }
 
 #command {
-    color: var(--command);
+  color: var(--command);
 }
 
 #liner::before {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .color2 {
-    color: var(--sub-color);
+  color: var(--sub-color);
 }
 
 .command {
-    color: var(--command);
-    text-shadow: 0 0 5px var(--command); 
+  color: var(--command);
+  text-shadow: 0 0 5px var(--command);
 }
 
 .error {
-    color: var(--sub-color);
+  color: var(--sub-color);
 }
 
 .inherit,
 a {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 a:hover {
-background: var(--command);
+  background: var(--command);
+}
+
+.container {
+  box-shadow: 0 0 10px 7px var(--main-color);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sub-color);
+  border-radius: 10px;
 }

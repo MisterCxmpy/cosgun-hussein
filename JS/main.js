@@ -1,4 +1,5 @@
-const before = document.querySelector("#before");
+const title = document.querySelector("#title");
+let before = document.querySelector("#before");
 const liner = document.querySelector("#liner");
 const command = document.querySelector("#typer"); 
 const textarea = document.querySelector("#texter"); 

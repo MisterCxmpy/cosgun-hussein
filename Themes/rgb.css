@@ -119,3 +119,42 @@ a {
 a:hover {
   animation: rgb-bg 5s linear infinite;
 }
+
+.container {
+  animation: rgb-box-shadow 5s linear infinite;
+}
+
+@keyframes rgb-box-shadow {
+  0% {
+    box-shadow: 0 0 10px 7px hsl(120, 39%, 49%);
+  }
+  20% {
+    box-shadow: 0 0 10px 7px hsl(192, 48%, 48%);
+  }
+  40% {
+    box-shadow: 0 0 10px 7px hsl(264, 90%, 58%);
+  }
+  60% {
+    box-shadow: 0 0 10px 7px hsl(357, 89%, 50%);
+  }
+  80% {
+    box-shadow: 0 0 10px 7px hsl(46, 100%, 51%);
+  }
+  100% {
+    box-shadow: 0 0 10px 7px hsl(120, 39%, 49%);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sub-color);
+  border-radius: 10px;
+}

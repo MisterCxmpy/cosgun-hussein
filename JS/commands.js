@@ -39,9 +39,38 @@ help = [
   "<br>",
 ];
 
+const generateSessionID = () => {
+  const hexChars = '0123456789abcdef';
+  let result = '';
+  
+  for (let i = 0; i < 4; i++) {
+    for (let j = 0; j < 4; j++) {
+      result += hexChars.charAt(Math.floor(Math.random() * hexChars.length));
+    }
+    if (i < 3) {
+      result += ' ';
+    }
+  }
+  
+  result += ' : ';
+  
+  for (let i = 0; i < 2; i++) {
+    for (let j = 0; j < 4; j++) {
+      result += hexChars.charAt(Math.floor(Math.random() * hexChars.length));
+    }
+    if (i < 1) {
+      result += ' : ';
+    }
+  }
+  
+  return result;
+}
+
 banner = [
-    '<span class="color2">Welcome to my portfolio.</span>',
-    "<span class=\"color2\">Type</span> <span class=\"command\">'help'</span><span class=\"color2\"> to see list of available commands.</span>",
+    '<span class="color2">Welcome to CosShell v2002.09.</span>',
+    `<span class="color2">Session ID: ${generateSessionID()}</span>`,
+    `<span class="color2">Type</span> <span class="command">'help'</span><span class="color2"> to see list of available commands.</span>`,
+    `<span class="color2">All Commands are case insensitive.</span>`,
 ];
 
 themes = [

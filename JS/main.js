@@ -187,3 +187,10 @@ function changeStyle(sheet) {
 
     return false
 }
+
+window.addEventListener("keydown", function(e) {
+  textarea.focus();
+  if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+      e.preventDefault();
+    }
+}, false);

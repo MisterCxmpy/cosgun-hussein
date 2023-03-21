@@ -90,10 +90,6 @@ body {
   animation: rgb-bg 5s linear infinite;
 }
 
-#command {
-  color: var(--text-color);
-}
-
 #liner::before {
   animation: rgb 5s linear infinite;
 }
@@ -102,18 +98,8 @@ body {
   animation: rgb 5s linear infinite;
 }
 
-.command {
-  color: var(--error-color);
-  text-shadow: 0 0 5px var(--error-color); 
-}
-
 .error {
   animation: rgb 5s linear infinite;
-}
-
-.inherit,
-a {
-  color: var(--text-color);
 }
 
 a:hover {
@@ -143,18 +129,4 @@ a:hover {
   100% {
     box-shadow: 0 0 10px 7px hsl(120, 39%, 49%);
   }
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--bg-color);;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--sub-color);
-  border-radius: 10px;
 }

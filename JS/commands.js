@@ -28,6 +28,7 @@ projects = [
   "<br>",
   '<span class="command">Python</span>',
   '<span class="command">RoR</span>',
+  '<span class="command">React</span>',
   "<br>"
 ];
 
@@ -345,5 +346,13 @@ ror = [
   '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' + "</a>",
   '<a href="https://github.com/MisterCxmpy/rails-message-board" target="_blank">rails messaging board' + "</a>",
   '<a href="https://github.com/MisterCxmpy/rails-finance-tracker" target="_blank">rails finance tracker' + "</a>",
+  '<br>',
+]
+
+react = [
+  '<br>',
+  'React projects',
+  '<br>',
+  '<a href="https://github.com/MisterCxmpy/Learnify/" target="_blank">Learnify' + "</a>",
   '<br>',
 ]

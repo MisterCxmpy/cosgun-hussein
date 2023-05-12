@@ -354,5 +354,7 @@ react = [
   'React projects',
   '<br>',
   '<a href="https://github.com/MisterCxmpy/Learnify/" target="_blank">Learnify' + "</a>",
+  '<a href="https://github.com/MisterCxmpy/mental-health-client" target="_blank">SerenityAI Client' + "</a>",
+  '<a href="https://github.com/sord-dev/mental-health-server" target="_blank">SerenityAI Server' + "</a>",
   '<br>',
 ]

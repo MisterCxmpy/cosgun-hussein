@@ -154,6 +154,17 @@ a:focus {
     min-width: 0;
     width: 100%;
     padding: 15px 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container-prop {
+    margin-top: 25px;
+  }
+
+  #title {
+    margin-top: 25px;
   }
 
   p {

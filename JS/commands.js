@@ -1,5 +1,5 @@
 let github = "https://github.com/mistercxmpy/";
-let linkedIn = "https://www.linkedin.com/in/cosgun-hussein-618b71244/"
+let linkedIn = "https://www.linkedin.com/in/cosgun-hussein-618b71244/";
 
 about = [
   "<br>",
@@ -7,16 +7,24 @@ about = [
   "front-end development. I have experience working with Python and JavaScript, and have used many",
   "different languges to a basic level. I enjoy creating visually appealing and user-friendly interfaces",
   "and am always learning new technologies to improve my skills.",
-  "<br>"
+  "<br>",
 ];
 
 social = [
   "<br>",
-  'github         <a href="' + github + '" target="_blank">github/mistercxmpy' + "</a>",
-  'linkedin       <a href="' + linkedIn + '" target="_blank">linkedIn.com/cosgun-hussein' + "</a>",
-  'email          <a href="mailto:cosgunhussein@gmail.com" target="_blank">email/cosgun-hussein' + "</a>",
-  'discord        <a href="https://discordapp.com/users/242001354468491274" target="_blank">discord/cosgun-hussein' + "</a>",
-  "<br>"
+  'github         <a href="' +
+    github +
+    '" target="_blank">github/mistercxmpy' +
+    "</a>",
+  'linkedin       <a href="' +
+    linkedIn +
+    '" target="_blank">linkedIn.com/cosgun-hussein' +
+    "</a>",
+  'email          <a href="mailto:cosgunhussein@gmail.com" target="_blank">email/cosgun-hussein' +
+    "</a>",
+  'discord        <a href="https://discordapp.com/users/242001354468491274" target="_blank">discord/cosgun-hussein' +
+    "</a>",
+  "<br>",
 ];
 
 projects = [
@@ -29,7 +37,7 @@ projects = [
   '<span class="command">Python</span>',
   '<span class="command">RoR</span>',
   '<span class="command">React</span>',
-  "<br>"
+  "<br>",
 ];
 
 help = [
@@ -45,58 +53,58 @@ help = [
 ];
 
 const generateSessionID = () => {
-  const hexChars = '0123456789abcdef';
-  let result = '';
-  
+  const hexChars = "0123456789abcdef";
+  let result = "";
+
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
       result += hexChars.charAt(Math.floor(Math.random() * hexChars.length));
     }
     if (i < 3) {
-      result += ' ';
+      result += " ";
     }
   }
-  
-  result += ' : ';
-  
+
+  result += " : ";
+
   for (let i = 0; i < 2; i++) {
     for (let j = 0; j < 4; j++) {
       result += hexChars.charAt(Math.floor(Math.random() * hexChars.length));
     }
     if (i < 1) {
-      result += ' : ';
+      result += " : ";
     }
   }
-  
+
   return result;
-}
+};
 
 banner = [
-    '<span class="color2">Welcome to CosShell v2002.09.</span>',
-    `<span class="color2">Session ID: <span class="command">${generateSessionID()}</span></span>`,
-    `<span class="color2">Type</span> <span class="command">'help'</span><span class="color2"> to see list of available commands.</span>`,
-    `<span class="color2">All Commands are case insensitive.</span>`,
+  '<span class="color2">Welcome to CosShell v2002.09.</span>',
+  `<span class="color2">Session ID: <span class="command">${generateSessionID()}</span></span>`,
+  `<span class="color2">Type</span> <span class="command">'help'</span><span class="color2"> to see list of available commands.</span>`,
+  `<span class="color2">All Commands are case insensitive.</span>`,
 ];
 
 themes = [
-    '<br>',
-    `<a href="#!" onclick=changeStyle("default");>default</a>`,
-    `<a href="#!" onclick=changeStyle("80s_after_dark");>80s after dark</a>`,
-    `<a href="#!" onclick=changeStyle("8008");>8008</a>`,
-    `<a href="#!" onclick=changeStyle("9009");>9009</a>`,
-    `<a href="#!" onclick=changeStyle("aether");>aether</a>`,
-    `<a href="#!" onclick=changeStyle("alduin");>alduin</a>`,
-    `<a href="#!" onclick=changeStyle("arch");>arch</a>`,
-    `<a href="#!" onclick=changeStyle("aurora");>aurora</a>`,
-    `<a href="#!" onclick=changeStyle("beach");>beach</a>`,
-    `<a href="#!" onclick=changeStyle("bento");>bento</a>`,
-    '<br>',
-    `---- type "themes 2" for more themes ---- `,
-    '<br>',
-]
+  "<br>",
+  `<a href="#!" onclick=changeStyle("default");>default</a>`,
+  `<a href="#!" onclick=changeStyle("80s_after_dark");>80s after dark</a>`,
+  `<a href="#!" onclick=changeStyle("8008");>8008</a>`,
+  `<a href="#!" onclick=changeStyle("9009");>9009</a>`,
+  `<a href="#!" onclick=changeStyle("aether");>aether</a>`,
+  `<a href="#!" onclick=changeStyle("alduin");>alduin</a>`,
+  `<a href="#!" onclick=changeStyle("arch");>arch</a>`,
+  `<a href="#!" onclick=changeStyle("aurora");>aurora</a>`,
+  `<a href="#!" onclick=changeStyle("beach");>beach</a>`,
+  `<a href="#!" onclick=changeStyle("bento");>bento</a>`,
+  "<br>",
+  `---- type "themes 2" for more themes ---- `,
+  "<br>",
+];
 
 themes_2 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("bingsu");>bingsu</a>`,
   `<a href="#!" onclick=changeStyle("bliss");>bliss</a>`,
   `<a href="#!" onclick=changeStyle("blue_dolphin");>blue dolphin</a>`,
@@ -107,13 +115,13 @@ themes_2 = [
   `<a href="#!" onclick=changeStyle("cafe");>cafe</a>`,
   `<a href="#!" onclick=changeStyle("camping");>camping</a>`,
   `<a href="#!" onclick=changeStyle("carbon");>carbon</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 3" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_3 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("catppuccin");>catppuccin</a>`,
   `<a href="#!" onclick=changeStyle("chaos_theory");>chaos theory</a>`,
   `<a href="#!" onclick=changeStyle("cheesecake");>cheesecake</a>`,
@@ -124,13 +132,13 @@ themes_3 = [
   `<a href="#!" onclick=changeStyle("dark_magic_girl");>dark magic girl</a>`,
   `<a href="#!" onclick=changeStyle("dark");>dark</a>`,
   `<a href="#!" onclick=changeStyle("darling");>darling</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 4" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_4 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("deku");>deku</a>`,
   `<a href="#!" onclick=changeStyle("desert_oasis");>desert oasis</a>`,
   `<a href="#!" onclick=changeStyle("dev");>dev</a>`,
@@ -141,13 +149,13 @@ themes_4 = [
   `<a href="#!" onclick=changeStyle("dots");>dots</a>`,
   `<a href="#!" onclick=changeStyle("dracula");>dracula</a>`,
   `<a href="#!" onclick=changeStyle("drowning");>drowning</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 5" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_5 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("dualshot");>dualshot</a>`,
   `<a href="#!" onclick=changeStyle("evil_eye");>evil eye</a>`,
   `<a href="#!" onclick=changeStyle("ez_mode");>ez mode</a>`,
@@ -158,13 +166,13 @@ themes_5 = [
   `<a href="#!" onclick=changeStyle("frozen_llama");>frozen llama</a>`,
   `<a href="#!" onclick=changeStyle("fundamentals");>fundamentals</a>`,
   `<a href="#!" onclick=changeStyle("future_funk");>future funk</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 6" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_6 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("godspeed");>godspeed</a>`,
   `<a href="#!" onclick=changeStyle("graen");>graen</a>`,
   `<a href="#!" onclick=changeStyle("grand_prix");>grand prix</a>`,
@@ -175,13 +183,13 @@ themes_6 = [
   `<a href="#!" onclick=changeStyle("hedge");>hedge</a>`,
   `<a href="#!" onclick=changeStyle("honey");>honey</a>`,
   `<a href="#!" onclick=changeStyle("horizon");>horizon</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 7" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_7 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("husqy");>husqy</a>`,
   `<a href="#!" onclick=changeStyle("iceberg_dark");>iceberg dark</a>`,
   `<a href="#!" onclick=changeStyle("iceberg_light");>iceberg light</a>`,
@@ -192,13 +200,13 @@ themes_7 = [
   `<a href="#!" onclick=changeStyle("laser");>laser</a>`,
   `<a href="#!" onclick=changeStyle("lavender");>lavender</a>`,
   `<a href="#!" onclick=changeStyle("leather");>leather</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 8" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_8 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("lil_dragon");>lil dragon</a>`,
   `<a href="#!" onclick=changeStyle("line");>line</a>`,
   `<a href="#!" onclick=changeStyle("luna");>luna</a>`,
@@ -209,13 +217,13 @@ themes_8 = [
   `<a href="#!" onclick=changeStyle("matrix");>matrix</a>`,
   `<a href="#!" onclick=changeStyle("menthol");>menthol</a>`,
   `<a href="#!" onclick=changeStyle("metaverse");>metaverse</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 9" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_9 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("metropolis");>metropolis</a>`,
   `<a href="#!" onclick=changeStyle("mexican");>mexican</a>`,
   `<a href="#!" onclick=changeStyle("miami_nights");>miami nights</a>`,
@@ -226,13 +234,13 @@ themes_9 = [
   `<a href="#!" onclick=changeStyle("mizu");>mizu</a>`,
   `<a href="#!" onclick=changeStyle("modern_dolch_light");>modern dolch light</a>`,
   `<a href="#!" onclick=changeStyle("modern_dolch");>modern dolch</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 10" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_10 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("modern_ink");>modern ink</a>`,
   `<a href="#!" onclick=changeStyle("monokai");>monokai</a>`,
   `<a href="#!" onclick=changeStyle("moonlight");>moonlight</a>`,
@@ -243,13 +251,13 @@ themes_10 = [
   `<a href="#!" onclick=changeStyle("nausea");>nausea</a>`,
   `<a href="#!" onclick=changeStyle("nautilus");>nautilus</a>`,
   `<a href="#!" onclick=changeStyle("nebula");>nebula</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 11" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_11 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("night_runner");>night runner</a>`,
   `<a href="#!" onclick=changeStyle("nord");>nord</a>`,
   `<a href="#!" onclick=changeStyle("norse");>norse</a>`,
@@ -260,13 +268,13 @@ themes_11 = [
   `<a href="#!" onclick=changeStyle("passion_fruit");>passion fruit</a>`,
   `<a href="#!" onclick=changeStyle("peaches");>peaches</a>`,
   `<a href="#!" onclick=changeStyle("pink_lemonade");>pink lemonade</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 12" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_12 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("pulse");>pulse</a>`,
   `<a href="#!" onclick=changeStyle("red_dragon");>red dragon</a>`,
   `<a href="#!" onclick=changeStyle("red_samurai");>red samurai</a>`,
@@ -277,13 +285,13 @@ themes_12 = [
   `<a href="#!" onclick=changeStyle("rose_pine_moon");>rose pine moon</a>`,
   `<a href="#!" onclick=changeStyle("rose_pine");>rose pine</a>`,
   `<a href="#!" onclick=changeStyle("rudy");>rudy</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 13" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_13 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("ryujinscales");>ryujinscales</a>`,
   `<a href="#!" onclick=changeStyle("serika_dark");>serika dark</a>`,
   `<a href="#!" onclick=changeStyle("serika");>serika</a>`,
@@ -294,13 +302,13 @@ themes_13 = [
   `<a href="#!" onclick=changeStyle("solarized_dark");>solarized dark</a>`,
   `<a href="#!" onclick=changeStyle("solarized_light");>solarized light</a>`,
   `<a href="#!" onclick=changeStyle("sonokai");>sonokai</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 14" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_14 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("stealth");>stealth</a>`,
   `<a href="#!" onclick=changeStyle("strawberry");>strawberry</a>`,
   `<a href="#!" onclick=changeStyle("striker");>striker</a>`,
@@ -311,13 +319,13 @@ themes_14 = [
   `<a href="#!" onclick=changeStyle("terror_below");>terror below</a>`,
   `<a href="#!" onclick=changeStyle("tiramisu");>tiramisu</a>`,
   `<a href="#!" onclick=changeStyle("trackday");>trackday</a>`,
-  '<br>',
+  "<br>",
   `---- type "themes 15" for more themes ---- `,
-  '<br>',
-]
+  "<br>",
+];
 
 themes_15 = [
-  '<br>',
+  "<br>",
   `<a href="#!" onclick=changeStyle("tron_orange");>tron orange</a>`,
   `<a href="#!" onclick=changeStyle("vaporwave");>vaporwave</a>`,
   `<a href="#!" onclick=changeStyle("viridescent");>viridescent</a>`,
@@ -326,34 +334,65 @@ themes_15 = [
   `<a href="#!" onclick=changeStyle("watermelon");>watermelon</a>`,
   `<a href="#!" onclick=changeStyle("wavez");>wavez</a>`,
   `<a href="#!" onclick=changeStyle("witch_girl");>witch girl</a>`,
-  '<br>',
-]
+  "<br>",
+];
 
 python = [
-  '<br>',
-  'Python projects<br>',
-  '<br>',
-  '<a href="https://github.com/MisterCxmpy/Python-Snipping-Tool" target="_blank">python snipping tool' + "</a>",
-  '<a href="https://github.com/MisterCxmpy/Python-Drawing-Tool" target="_blank">python drawing tool' + "</a>",
-  '<a href="https://github.com/MisterCxmpy/Python-YouTube-MP3-Downloader" target="_blank">python youtube to mp3' + "</a>",
-  '<br>',
-]
+  "<br>",
+  "Python projects<br>",
+  "<br>",
+  '<a href="https://github.com/MisterCxmpy/Python-Snipping-Tool" target="_blank">python snipping tool' +
+    "</a>",
+  '<a href="https://github.com/MisterCxmpy/Python-Drawing-Tool" target="_blank">python drawing tool' +
+    "</a>",
+  '<a href="https://github.com/MisterCxmpy/Python-YouTube-MP3-Downloader" target="_blank">python youtube to mp3' +
+    "</a>",
+  "<br>",
+];
 
 ror = [
-  '<br>',
-  'Rails projects',
-  '<br>',
-  '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' + "</a>",
-  '<a href="https://github.com/MisterCxmpy/rails-message-board" target="_blank">rails messaging board' + "</a>",
-  '<a href="https://github.com/MisterCxmpy/rails-finance-tracker" target="_blank">rails finance tracker' + "</a>",
-  '<br>',
-]
+  "<br>",
+  "Rails projects",
+  "<br>",
+  '<a href="https://cosgun-hussein-blog.herokuapp.com/" target="_blank">rails blog' +
+    "</a>",
+  '<a href="https://github.com/MisterCxmpy/rails-message-board" target="_blank">rails messaging board' +
+    "</a>",
+  '<a href="https://github.com/MisterCxmpy/rails-finance-tracker" target="_blank">rails finance tracker' +
+    "</a>",
+  "<br>",
+];
+
+const project = (name, website, client, server, merge) => {
+  const links = [];
+
+  if (website) {
+    links.push(`<span class="command">[</span><a href="${website}" target="_blank">Live</a><span class="command">]</span>`);
+  }
+
+  if (client) {
+    links.push(`<span class="command">[</span><a href="${client}" target="_blank">Client Repo</a><span class="command">]</span>`);
+  }
+
+  if (server) {
+    links.push(`<span class="command">[</span><a href="${server}" target="_blank">Server Repo</a><span class="command">]</span>`);
+  }
+
+  if (merge) {
+    links.push(`<span class="command">[</span><a href="${merge}" target="_blank">Client & Server Repo</a><span class="command">]</span>`);
+  }
+
+  const project_final = `<span class="command">${name}    </span>${links.join(' ')}`;
+
+  return project_final;
+}
+
 
 react = [
-  '<br>',
-  'React projects',
-  '<br>',
-  '<a href="https://github.com/MisterCxmpy/Learnify/" target="_blank">Learnify' + "</a>",
-  '<a href="https://serenity-ai.netlify.app" target="_blank">SerenityAI' + "</a>",
-  '<br>',
-]
+  "<br>",
+  "React projects",
+  "<br>",
+  project("Learnify", "", "", "", "https://github.com/MisterCxmpy/Learnify"),
+  project("SerenityAI", "https://serenity-ai.netlify.app", "https://github.com/MisterCxmpy/mental-health-client", "https://github.com/sord-dev/mental-health-server"),
+  "<br>",
+];

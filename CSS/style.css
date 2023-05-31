@@ -132,7 +132,6 @@ p {
 }
 
 .banner {
-  font-family: monospace;
   white-space: pre;
   font-size: 14px;
 }
@@ -143,6 +142,10 @@ a {
 
 a:focus {
   outline: 0;
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
 }
 
 @media only screen and (max-width: 600px) {

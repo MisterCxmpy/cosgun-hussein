@@ -132,6 +132,7 @@ p {
 }
 
 .banner {
+  font-family: monospace;
   white-space: pre;
   font-size: 14px;
 }

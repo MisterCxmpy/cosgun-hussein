@@ -394,7 +394,7 @@ react = [
   "React projects",
   "<br>",
   project("Learnify", "", "", "", "https://github.com/MisterCxmpy/Learnify"),
-  project("SerenityAI", "https://serenity-ai.netlify.app", "https://github.com/MisterCxmpy/mental-health-client", "https://github.com/sord-dev/mental-health-server"),
+  project("SerenityAI", "https://serenity-ai.netlify.app/authenticate/login", "https://github.com/MisterCxmpy/mental-health-client", "https://github.com/sord-dev/mental-health-server"),
   project("WIthin Agency", "https://illustrious-horse-46aae3.netlify.app", "", ""),
   "<br>",
 ];
